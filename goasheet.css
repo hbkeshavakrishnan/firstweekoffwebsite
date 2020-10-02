@@ -60,3 +60,6 @@ li {
   .right{
     text-align: left;
   }
+  .blue{
+    background-color: rgb(79, 108, 134);
+  }
