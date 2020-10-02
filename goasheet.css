@@ -1,21 +1,22 @@
 body{
-  background-color: rgb(96, 100, 100);
+  background-color: rgb(182, 185, 185);
  }
 
  h1 {
   text-align: center;
   font-family: system-ui;
   font-size: 50px;
-  color: #8ec212;
+  color: #0f0f0f;
+  background-color: rgb(152, 154, 156);
  }
 
  nav {
   text-align: center;
-  background-color: #5adaa2;
+  background-color: #adafaf;
  }
 
 a {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold ;
   font-family: Arial, Helvetica, sans-serif;
   color: black ;
@@ -29,13 +30,13 @@ a {
  a:hover {
    color: yellow;
 }
-
-img {
+ 
+/* img {
    margin-left: 165px;
-  /* margin-right: auto; */
+   margin-right: auto; 
 
   text-align: center;
-}
+}  */
 
 p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -45,4 +46,17 @@ p {
 li {
   font-size: 20px;
   font-family:Arial, Helvetica, sans-serif ;
+  }
+
+  .center{
+    /* margin-left: 0 auto; */
+    text-align: center;
+  }
+  
+  /* .left{
+    text-align: right;
+  } */
+
+  .right{
+    text-align: left;
   }
